@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+form input:focus {
+  border-color: #000;
+  outline: none;
+  background-color: #fff;
+}
+
+form button {
+  background-color: #000;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #444;
+}
+
+/* Tabela de Produtos */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #000;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
